@@ -1,11 +1,11 @@
 #ifndef NOTE1
 #define NOTE1
-#include <string>
+#include <NAME.h>
 #include "DATE.h"
 struct NOTE1{
-	string name;
+	NAME name;
 	long long tele;
 	DATE date;
 };
 
-#endif //NOTE 1
+#endif //NOTE1
