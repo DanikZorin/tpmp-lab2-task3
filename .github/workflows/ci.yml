@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4 
+      - name: clean with Make
+        run: make clean
       - name: Build with Make
         run: make
       - name: Run the program (optional)
