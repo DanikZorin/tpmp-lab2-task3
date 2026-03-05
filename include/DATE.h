@@ -1,10 +1,10 @@
 #ifndef DATE
 #define DATE
 
-struct DATE{
+typedef struct DATE{
 	int month;
 	int year;
 	int day;
-};
+} DATE_T;
 
 #endif // DATE

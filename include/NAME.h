@@ -1,9 +1,9 @@
 #ifndef NAME
 #define NAME
-#include <string>
-struct NAME{
-	string inits;
-	string surname;
-};
+
+typedef struct NAME{
+	char inits[4];
+	char surname[30];
+} NAME_T;
 
 #endif //NAME
