@@ -5,4 +5,4 @@ obj/main.o: src/main.c
 	gcc -c src/main.c -o obj/main.o
 
 clean:
-	rm obj/*.o bin/*
+	rm -f obj/*.o bin/*
