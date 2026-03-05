@@ -33,7 +33,7 @@ int main(){
 
 
 	int month;
-	printf("Input a month:\n");
+	printf("Input a month to search:\n");
 	scanf("%d", &month);
 
 	int count = 0;
