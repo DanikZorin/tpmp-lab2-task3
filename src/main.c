@@ -8,7 +8,6 @@ int main(){
 	for (int i=0;i<n;i++){
 		printf("BLOCK[%d]:\n", i);
 		NOTE1_T* note = (NOTE1_T*)malloc(sizeof(NOTE1_T));
-		
 		printf("input surname and initials:\n");
 		scanf("%s %s",note->name.surname, note->name.inits);
  		
@@ -41,7 +40,7 @@ int main(){
 		NOTE1_T *note = BLOCK[i];
 		if (note->date.month == month){
 			count++;
-			printf("Name: %s %s \nDate of birth: %d-%d-%d \nTele: +%lld\n\n", note->name.surname, note->name.inits, note->date.day, note->date.month, note->date.year, note->tele);
+			printf("Name: %s %s \nDate of Birth: %d-%d-%d \nTele: +%lld\n\n", note->name.surname, note->name.inits, note->date.day, note->date.month, note->date.year, note->tele);
 		}
 	}
 	if (count == 0){
