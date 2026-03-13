@@ -1,6 +1,6 @@
 #ifndef TASK
 #define TASK
-#include "NOTE1.h"
+#include "note1.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
