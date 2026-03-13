@@ -1,7 +1,7 @@
 #ifndef NOTE1
 #define NOTE1
-#include "NAME.h"
-#include "DATE.h"
+#include "name.h"
+#include "date.h"
 typedef struct NOTE1{
 	NAME_T name;
 	long long tele;
