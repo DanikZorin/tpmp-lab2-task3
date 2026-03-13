@@ -1,4 +1,4 @@
-#include "../include/NOTE1.h"
+#include "../include/note1.h"
 #include "../include/task.h"
 #include <stdio.h>
 #include <stdlib.h>
